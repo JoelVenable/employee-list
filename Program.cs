@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace employee_list
+namespace EmployeeList
 {
     class Program
     {
