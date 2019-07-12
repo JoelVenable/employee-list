@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 
 namespace EmployeeList
@@ -14,7 +15,7 @@ namespace EmployeeList
     {
       _employeeList.ForEach(employee =>
       {
-        System.Console.WriteLine($"Employee: {employee}");
+        System.Console.WriteLine($"Employee: {employee.TitleFullName}");
       });
     }
 

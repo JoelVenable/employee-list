@@ -9,6 +9,14 @@ namespace EmployeeList
     public string LastName { get; set; }
     public string Title { get; set; }
 
+    public string TitleFullName
+    {
+      get
+      {
+        return $"{Title} {FirstName} {LastName}";
+      }
+    }
+
     public DateTime StartDate { get; set; }
 
   }
